@@ -10,16 +10,21 @@
 </head>
 <body class="bg-gray text-gray-800">
     <!-- Navbar -->
-    <header class="flex items-center justify-between bg-white px-4 md:px-4 py-4 w-full max-w-screen-xl max-auto">
-        <div class="flex items-center">
+    <header class="flex items-center justify-between bg-white px-4 md:px-8 py-4 w-full max-w-screen-xl max-auto">
+        <!--Logo-->
+        <div class="flex justify-between space-x-6">
             <img src="assets/logo.png" alt="Faugei Logo"class=" w-16 h-16 ml-6 "> 
         </div>
-        <nav class="space-x-6">
-           <a href="#" class="text-Black-600 hover:text-black-600">Home</a>
-           <a href="#" class="text-gray-600 hover:text-gray-600">Shop</a>
-           <a href="#" class="text-gray-600 hover:text-gray-600">About</a>
-           <a href="#"class="text-black-700 hover:text-black-800"> <i class="fa-solid fa-cart-shopping"></i> Cart($56)</a>
+        <!--Large & Small Device Nav Show-->
+        <nav class="flex items-center space-x-6 md:space-x-8">
+           <a href="#" class="hidden md:block text-Black-600 hover:text-black-600">Home</a>
+           <a href="#" class="hidden md:block text-gray-600 hover:text-gray-600">Shop</a>
+           <a href="#" class="hidden md:block text-gray-600 hover:text-gray-600">About</a>
         </nav>
+        <!--Cart Always Visible-->
+        <div>
+              <a href="#" class=" hover:text-black-800 transition-colors flex items-center space-x-2"><i class="fa-solid fa-cart-shopping"></i> <span>Cart ($56)</span></a>
+        </div>      
     </header>
     <!-- Banner -->
      <section class="flex flex-col-reverse md:flex-row items-center px-4 md:px-4 py-10">
@@ -40,7 +45,7 @@
     <!-- Plants Section -->
      <section class="container mx-auto px-4 md:px-4 py-16">
         <div class="text-center mb-12">
-            <h2 class="text-4xl md:text-5xl font-bold font-playfair mb-4">
+            <h2 class="text-4xl md:text-5xl font-bold  mb-4">
                 <span class="text-orange-600">Our</span>
                 <span class="text-black-700">Plants</span>
             </h2>
@@ -52,7 +57,7 @@
         <!-- Plant-1 -->
          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
@@ -60,7 +65,7 @@
             </div>
                <!-- Plant-2 -->
          
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
@@ -68,7 +73,7 @@
             </div>
                <!-- Plant-3 -->
          
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
@@ -76,7 +81,7 @@
             </div>
                <!-- Plant-4 -->
          
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
@@ -84,7 +89,7 @@
             </div>
                <!-- Plant-5 -->
          
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
@@ -92,7 +97,7 @@
             </div>
                <!-- Plant-6 -->
          
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
@@ -108,7 +113,7 @@
             </div>
                <!-- Plant-8 -->
          
-            <div class="bg-white p-4 rounded-lg shadow-md text-conter">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom classic" class="w-full h-auto object-cover rounded-lg mb-4"/>
                 <p class="mt-3 text-center text-sm text-white">Lily Blossom</p>
                 <p class="font-bold text-center text-gray-400 text-sm mb-4">20 USD</p>
